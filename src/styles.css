@@ -55,7 +55,8 @@ p {
 }
 
 .btn-branding {
-  background: var(--primary-color);
+  /*background: var(--secondary-color);*/
+  background: blue;
   border-radius: 4px;
   color: white;
   font-size: 18px;
