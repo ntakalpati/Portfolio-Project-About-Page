@@ -108,3 +108,7 @@ p {
 .fw-icon i {
   margin: 10px;
 }
+
+.about-container {
+  padding: 160px 20px;
+}
