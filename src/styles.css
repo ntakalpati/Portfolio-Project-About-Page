@@ -56,7 +56,7 @@ p {
 
 .btn-branding {
   /*background: var(--secondary-color);*/
-  background: blue;
+  background: rgb(233, 67, 108);
   border-radius: 4px;
   color: white;
   font-size: 18px;
