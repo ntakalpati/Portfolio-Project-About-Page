@@ -91,6 +91,11 @@ p {
     padding: 80px 20px;
   }
 
+  .about {
+    text-align: center;
+    padding: 0;
+  }
+
   .project-desciption {
     padding: 0;
     text-align: center;
@@ -107,4 +112,23 @@ p {
 
 .fw-icon i {
   margin: 10px;
+}
+
+.about {
+  padding: 160px 20px;
+  text-align: center;
+}
+
+.about h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.about-content {
+  margin: 30px;
 }
