@@ -32,6 +32,7 @@ p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
+  font-weight: bold;
 }
 
 .home {
@@ -40,7 +41,7 @@ p {
   padding: 160px 20px;
 }
 
-.about {
+.content-container {
   padding: 160px 20px;
   text-align: center;
 }
@@ -59,21 +60,21 @@ p {
   font-size: 24px;
 }
 
-.about h1 {
+.content-container h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
-.about h2 {
+.content-container h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
 
-.about-content {
+.content {
   margin: 30px;
 }
 
-.btn btn-branding {
+.btn-branding {
   /*background: var(--secondary-color);*/
   background: rgb(233, 67, 108);
   border-radius: 4px;
@@ -110,7 +111,7 @@ p {
     padding: 80px 20px;
   }
 
-  .about {
+  .content-container {
     text-align: center;
     padding: 0;
   }
