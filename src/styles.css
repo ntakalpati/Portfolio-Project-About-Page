@@ -76,10 +76,6 @@ p {
   margin: 30px;
 }
 
-.content a {
-  color: var(--primary-color);
-}
-
 .content a:hover {
   color: var(--hover-color);
 }
