@@ -4,7 +4,7 @@
   --heading-font: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
-body {
+.body {
   font-family: var(--default-font-family);
 }
 
@@ -95,6 +95,33 @@ p {
 
 .project-desciption {
   padding: 120px 60px;
+}
+
+nav {
+  padding: 20px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  font-family: var(--default-font-family);
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: all 150ms ease-in-out;
+}
+
+nav li.active a {
+  color: blueviolet;
 }
 
 @media (max-width: 900px) {
