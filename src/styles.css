@@ -40,7 +40,7 @@ p {
 .home {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content-container {
@@ -78,6 +78,7 @@ p {
 
 .content a.social-links {
   color: var(--primary-color);
+  font-size: 25px;
 }
 
 .content a.social-links:hover {
@@ -196,10 +197,6 @@ footer .fw-icon i:hover {
 
   h2 {
     font-size: 44px;
-  }
-
-  .home {
-    padding: 80px 20px;
   }
 
   .content-container {
