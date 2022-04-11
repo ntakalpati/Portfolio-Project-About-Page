@@ -76,10 +76,6 @@ p {
   margin: 30px;
 }
 
-.content a:hover {
-  color: var(--hover-color);
-}
-
 .btn-branding {
   background: var(--primary-color);
   /* background: rgb(233, 67, 108);*/
