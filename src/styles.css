@@ -189,6 +189,15 @@ footer .fw-icon i:hover {
   color: var(--hover-color);
 }
 
+footer .open-sourced {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+footer .open-sourced:hover {
+  color: var(--hover-color);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
